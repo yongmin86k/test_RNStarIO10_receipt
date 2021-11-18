@@ -56,5 +56,17 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+  <key>NSBluetoothAlwaysUsageDescription</key>
+	<string>For connecting to print and barcode scanning</string>
+  <key>NSBluetoothPeripheralUsageDescription</key>
+	<string>For connecting to printers and barcode scanners</string>
+  <key>NSLocalNetworkUsageDescription</key>
+	<string>For connecting to print local network</string>
+  <key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.socketmobile.chs</string>
+		<string>jp.star-m.starpro</string>
+		<string>com.elotouch.protocol</string>
+	</array>
 </dict>
 </plist>
